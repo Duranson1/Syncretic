@@ -17,6 +17,11 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Modern F5 mode
 - Cloud height changed to 128 (height limit)
 - Unsupported trapdoor placement
+- Boats drop item instead of crafting material
+- Shears break dead bushes/tall grass
+- Chests can open even with a block above them
+- Fence shape fixed
+- Stairs craft 6
 - Fixed slab placement
 - Modern crafting recipes
 - Trees drop apples
