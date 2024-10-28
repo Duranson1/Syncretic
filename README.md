@@ -33,12 +33,15 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Main menu theme added
 
 
+### Translations
+To translate the game to your language, find your according language pack found [here](https://github.com/telvarost/Languagepacks/tree/main/languagepacks), and download it to the "languagepacks" folder
+
+
 ### Important Notes
-- **This modpack will not work out of the box - you will need to install an instance of the latest version of Babric (Beta Fabric) from their [download site](https://babric.github.io/use/installer/) for your respective launcher, then drag-and-drop the mods, configs, custom-music and main-menu-theme folders from Syncretic into the folder for your Babric instance**
-- This pack is designed specifically for use with MultiMC and its forks, and function is not guaranteed with any other launcher
+- This pack is designed specifically for use with MultiMC and its forks, and will not function with other launchers
 - Requires Java 17
 - While this modpack is compatible with exisiting vanilla b1.7.3 worlds, practice regular backups as this still does remain a modified version of a very old game :)
-- Multiplayer is largely untested and not guaranteed to work
+- Multiplayer is unsupported
 
 
 _Syncretism is the practice of combining different beliefs and various schools of thought._
