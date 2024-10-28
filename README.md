@@ -11,6 +11,7 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Increased render distance, while keeping the classic beta fog
 - Brightness and FOV sliders added
 - More debug info
+- Rebindable debug keys
 - Skin and authentication fixes
 - Server list added
 - Various performance enhancements
