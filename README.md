@@ -33,8 +33,9 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Main menu theme added
 
 
-### Translations
-To translate the game to your language, find your according language pack found [here](https://github.com/telvarost/Languagepacks/tree/main/languagepacks), and download it to the "languagepacks" folder
+### Work in Progress
+- Translations are currently in the works, and unfortunately, only English is supported as of now
+- A Discord RPC for this modpack is also being worked on, as it isn't currently compatible
 
 
 ### Important Notes
