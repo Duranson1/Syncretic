@@ -6,7 +6,6 @@ Minecraft Beta Edition 1.7.3 - released in 2011, and the most popular version fr
 
 This modpack aims to change that. Running on a modified version of Fabric specifically for Beta 1.7.3, this modpack fixes many of those bugs while also backporting features loved by modern Minecrafters - all while maintaining vanilla parity.
 
-
 ### Features
 - Increased render distance, while keeping the classic beta fog
 - Brightness and FOV sliders added
@@ -18,10 +17,10 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Modern F5 mode
 - Cloud height changed to 128 (height limit)
 - Unsupported trapdoor placement
-- Boats drop item instead of crafting material
+- Boat fixes
 - Shears break dead bushes/tall grass
 - Chests can open even with a block above them
-- Fence shape fixed
+- Fence shape and connection fixes
 - Stairs craft 6
 - Fixed slab placement
 - Modern crafting recipes
@@ -30,19 +29,24 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Fixed inconsistent tool use on certain blocks
 - Creative mode added
 - Creative mode only music plays in survival
+- Main menu panorama added
 - Main menu theme added
 
-
-### Work in Progress
-- Translations are currently in the works, and unfortunately, only English is supported as of now
-- A Discord RPC for this modpack is also being worked on, as it isn't currently compatible
-
+### Installation Instructions
+- Install Prism Launcher or a similar MultiMC fork
+- Install Syncretic, select Java 17, and select "skip Java compatibility checks"
+- Download Syncretic Babric Patches (found [here](https://github.com/Duranson1/syncretic-babric-patches) - click the green "code" button, and select "download zip")
+- Extract the patch folder, inside should be 5 files
+- Drag all 5 files into the patch folder for Syncretic, replacing any existing files
+- Ensure min and max memory allocations match (ex 4096 min & 4096 max)
+- Enjoy :)
 
 ### Important Notes
-- This pack is designed specifically for use with MultiMC and its forks, and will not function with other launchers
-- Requires Java 17
+- This pack is designed specifically for use with MultiMC and its forks (Prism Launcher suggested), and will not function correctly with other launchers
+- Requires Java 17, and will not function with other Java versions
+- Pack will not work out of the box - please thoroughly read installation instructions to insure proper installation
+- If you find yourself dealing with any microstutters or lag, please uncheck "Java arguments" and paste the following into the JVM arguments: -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 - While this modpack is compatible with exisiting vanilla b1.7.3 worlds, practice regular backups as this still does remain a modified version of a very old game :)
-- Multiplayer is unsupported
-
+- Multiplayer is largely untested, Here be Dragons!
 
 _Syncretism is the practice of combining different beliefs and various schools of thought._
