@@ -49,4 +49,8 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - While this modpack is compatible with exisiting vanilla b1.7.3 worlds, practice regular backups as this still does remain a modified version of a very old game :)
 - Multiplayer is largely untested, Here be Dragons!
 
+### Current WIP
+- Discord RPC
+- Translations
+
 _Syncretism is the practice of combining different beliefs and various schools of thought._
