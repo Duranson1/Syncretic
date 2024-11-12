@@ -36,10 +36,10 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Install Prism Launcher or a similar MultiMC fork
 - Install Syncretic, select Java 17, and select "skip Java compatibility checks"
 - Download Syncretic Babric Patches (found [here](https://github.com/Duranson1/syncretic-babric-patches) - click the green "code" button, and select "download zip")
-- Extract the patch folder, inside should be 5 files
-- Drag all 5 files into the patch folder for Syncretic, replacing any existing files
+- Extract downloaded folder, inside should be a "patches" folder and a file named "mmc-pack.json"
+- Drag both the "patches" folder and "mmc-pack.json" into Syncretic's instance folder, replacing any existing files
 - Ensure min and max memory allocations match (ex 4096 min & 4096 max)
-- Enjoy :)
+- Launch and enjoy :)
 
 ### Important Notes
 - This pack is designed specifically for use with MultiMC and its forks (Prism Launcher suggested), and will not function correctly with other launchers
