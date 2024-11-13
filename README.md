@@ -33,16 +33,15 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Main menu theme added
 
 ### Installation Instructions
-- Install Prism Launcher or a similar MultiMC fork
-- Install Syncretic, select Java 17, and select "skip Java compatibility checks"
-- Download Syncretic Babric Patches (found [here](https://github.com/Duranson1/syncretic-babric-patches) - click the green "code" button, and select "download zip")
+- Install Syncretic v2.0.2+ in Prism Launcher, select Java 17 under the instance settings, and select "skip Java compatibility checks"
+- Download Syncretic Babric Patches v1.0.0+ (found [here](https://github.com/Duranson1/syncretic-babric-patches/releases))
 - Extract downloaded folder, inside should be a "patches" folder and a file named "mmc-pack.json"
 - Drag both the "patches" folder and "mmc-pack.json" into Syncretic's instance folder, replacing any existing files
 - Ensure min and max memory allocations match (ex 4096 min & 4096 max)
 - Launch and enjoy :)
 
 ### Important Notes
-- This pack is designed specifically for use with MultiMC and its forks (Prism Launcher suggested), and will not function correctly with other launchers
+- This pack is designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
 - Requires Java 17, and will not function with other Java versions
 - Pack will not work out of the box - please thoroughly read installation instructions to insure proper installation
 - If you find yourself dealing with any microstutters or lag, please uncheck "Java arguments" and paste the following into the JVM arguments: -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
