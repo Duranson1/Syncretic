@@ -51,5 +51,7 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 ### Current WIP
 - Discord RPC
 - Translations
+- Controller Support
+- Fence Underside Texture Fix
 
 _Syncretism is the practice of combining different beliefs and various schools of thought._
