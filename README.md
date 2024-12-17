@@ -33,19 +33,22 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Main menu theme added
 
 ### Important Notes
-- This pack is designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
+- Designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
 - Requires Java 17, and will not function with other Java versions
-- Pack will not work out of the box - please thoroughly read installation instructions to insure proper installation
-- If you find yourself dealing with any microstutters or lag, please uncheck "Java arguments" and paste the following into the JVM arguments: -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+- Does not work out of the box - please thoroughly read installation instructions to insure proper installation
+- If you find yourself dealing with any microstutters or lag, uncheck "Java arguments" in Syncretic's instance settings and paste the following into the Java arguments textbox:
+```
+-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+```
 - While this modpack is compatible with exisiting vanilla b1.7.3 worlds, practice regular backups as this still does remain a modified version of a very old game :)
 - Multiplayer is largely untested and not guaranteed to work
 
 ### Installation Instructions
-- Install Syncretic v2.0.5+ in Prism Launcher, select Java 17 under the instance settings, and select "skip Java compatibility checks"
+- Install Syncretic v2.0.5+ in Prism Launcher and ensure Java 17 is selected under Syncretic's instance settings
 - Download Syncretic Babric Patches v1.0.0+ (found [here](https://github.com/Duranson1/syncretic-babric-patches/releases))
 - Extract downloaded folder, inside are two items: a "patches" folder and a file named "mmc-pack.json"
-- Drag both the "patches" folder and "mmc-pack.json" into Syncretic's instance folder, replacing any the existing "mmc-pack.json" file
-- Ensure min and max memory allocations match (ex 4096 min & 4096 max)
+- Drag both the "patches" folder and "mmc-pack.json" into Syncretic's instance folder, replacing the existing "mmc-pack.json" file
+- Ensure the minimum and maximum memory allocation values in Syncretic's instance settings match
 - Launch and enjoy :)
 
 ### Current WIP
