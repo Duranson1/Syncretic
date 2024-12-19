@@ -36,7 +36,7 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
 - Requires Java 17, and will not function with other Java versions
 - Does not work out of the box - please thoroughly read installation instructions to insure proper installation
-- If you find yourself dealing with any microstutters or lag, uncheck "Java arguments" in Syncretic's instance settings and paste the following into the Java arguments textbox:
+- If you find yourself dealing with any microstutters or lag, uncheck "Java arguments" in Syncretic's instance "Settings" tab, and paste the following into the Java arguments textbox:
 ```
 -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
@@ -45,12 +45,15 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 
 ### Installation Instructions
 - Install Syncretic v2.0.5+ in Prism Launcher
-- Check "Java installation," ensure Java 17 is selected, and check "Skip Java compatibility checks"
+- Navigate to Syncretic's instance "Settings" tab, check "Java installation," ensure Java 17 is selected, and check "Skip Java compatibility checks"
 - Download Syncretic Babric Patches v1.0.0+ (found [here](https://github.com/Duranson1/syncretic-babric-patches/releases))
-- Extract downloaded folder, inside are two items: a "patches" folder and a file named "mmc-pack.json"
-- Drag both the "patches" folder and "mmc-pack.json" into Syncretic's instance folder, replacing the existing "mmc-pack.json" file
-- Ensure the minimum and maximum memory allocation values in Syncretic's instance settings match
+- Extract the downloaded folder, and move both items inside (a "patches" folder and a file named "mmc-pack.json") into Syncretic's instance folder, replacing the existing "mmc-pack.json" file
+- Ensure the minimum and maximum memory allocation values in Syncretic's instance settings tab match
 - Launch and enjoy :)
+
+### Updating Instructions
+- When a new version of Syncretic is released, navigate to Syncretic's instance "Modrinth" tab, select the latest version, and select "Update pack"
+- Syncretic Babric Patches will need to be re-installed after every update - bear in mind that after the first installation, subsequent installations will require repalacing of _both_ the "patches" folder and "mmc-pack.json"
 
 ### Current WIP
 - Translations
