@@ -44,7 +44,7 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Multiplayer is largely untested and not guaranteed to work
 
 ### Installation Instructions
-- Install Syncretic v2.0.5+ in Prism Launcher
+- Install Syncretic v2.0.7+ in Prism Launcher
 - Navigate to Syncretic's instance "Settings" tab, check "Java installation," ensure Java 17 is selected, and check "Skip Java compatibility checks"
 - Download Syncretic Babric Patches v1.0.0+ (found [here](https://github.com/Duranson1/syncretic-babric-patches/releases))
 - Extract the downloaded folder, and move both items inside (a "patches" folder and a file named "mmc-pack.json") into Syncretic's instance folder, replacing the existing "mmc-pack.json" file
