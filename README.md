@@ -28,9 +28,10 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Toggleable full recipe/item viewer
 - Fixed inconsistent tool use on certain blocks
 - Creative mode added
-- Creative mode only music plays in survival
 - Main menu panorama added
-- Main menu theme added
+- C418 creative music plays in survival
+- C418 nether songs play in the nether
+- C418 main menu theme added
 
 ### Important Notes
 - Designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
@@ -54,10 +55,5 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 ### Updating Instructions
 - When a new version of Syncretic is released, navigate to Syncretic's instance "Modrinth" tab, select the latest version, and select "Update pack"
 - Syncretic Babric Patches will need to be re-installed after every update - bear in mind that after the first installation, subsequent installations will require repalacing of _both_ the "patches" folder and "mmc-pack.json"
-
-### Current WIP
-- Translations
-- Controller Support
-- Fence Underside Texture Fix
 
 _Syncretism is the practice of combining different beliefs and various schools of thought._
