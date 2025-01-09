@@ -22,6 +22,7 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 - Chests can open even with a block above them
 - Fence shape and connection fixes
 - Stairs craft 6
+- Trapdoors craft 4
 - Fixed slab placement
 - Modern crafting recipes
 - Trees drop apples
@@ -35,20 +36,20 @@ This modpack aims to change that. Running on a modified version of Fabric specif
 
 ### Important Notes
 - Designed specifically for use with Prism Launcher v9.1+, and will not function correctly with other launchers
-- Requires Java 17, and will not function with other Java versions
+- Requires Java 17 (Adoptium Temurin recommended, and downloadable within Prism Launcher), and will not function with other Java versions
 - Does not work out of the box - please thoroughly read installation instructions to insure proper installation
 - If you find yourself dealing with any microstutters or lag, uncheck "Java arguments" in Syncretic's instance "Settings" tab, and paste the following into the Java arguments textbox:
 ```
 -XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
 ```
 - While this modpack is compatible with exisiting vanilla b1.7.3 worlds, practice regular backups as this still does remain a modified version of a very old game :)
-- Multiplayer is largely untested and not guaranteed to work
+- Multiplayer is largely untested and not guaranteed to work (WIP)
 
 ### Installation Instructions
-- Install Syncretic v2.0.7+ in Prism Launcher
-- Navigate to Syncretic's instance "Settings" tab, check "Java installation," ensure Java 17 is selected, and check "Skip Java compatibility checks"
-- Download Syncretic Babric Patches v1.0.0+ (found [here](https://github.com/Duranson1/syncretic-babric-patches/releases))
+- Install the latest release of Syncretic in Prism Launcher
+- Download Syncretic Babric Patches, found in "files" under the latest release of Syncretic
 - Extract the downloaded folder, and move both items inside (a "patches" folder and a file named "mmc-pack.json") into Syncretic's instance folder, replacing the existing "mmc-pack.json" file
+- Navigate to Syncretic's instance "Settings" tab, check "Java installation," ensure Java 17 is selected, and check "Skip Java compatibility checks"
 - Ensure the minimum and maximum memory allocation values in Syncretic's instance settings tab match
 - Launch and enjoy :)
 
